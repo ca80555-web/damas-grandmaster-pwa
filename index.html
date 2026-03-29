@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+<meta name="theme-color" content="#1a1a2e">
+<link rel="manifest" href="manifest.json">
+<title>Damas Grandmaster 3D</title>
+<style>body,html{margin:0;padding:0;width:100%;height:100%;overflow:hidden}iframe{border:0;width:100%;height:100%}</style>
+</head>
+<body>
+<iframe src="jogo.html"></iframe>
+<script>
+if('serviceWorker' in navigator){
+  navigator.serviceWorker.register('sw.js');
+}
+</script>
+</body>
+</html>
